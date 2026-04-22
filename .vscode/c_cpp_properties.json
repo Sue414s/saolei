@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Qt/6.10.1/mingw_64/include/**",
+                "D:/Qt/6.10.1/mingw_64/include/QtWidgets/**",
+                "D:/Qt/6.10.1/mingw_64/include/QtCore/**",
+                "D:/Qt/6.10.1/mingw_64/include/QtGui/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
