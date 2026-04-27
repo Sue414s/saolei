@@ -154,6 +154,30 @@ saolei_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei_autogen.dir\build.make CMakeFiles/saolei_autogen.dir/build
 .PHONY : saolei_autogen/fast
 
+controller.obj: controller.cpp.obj
+.PHONY : controller.obj
+
+# target to build an object file
+controller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/controller.cpp.obj
+.PHONY : controller.cpp.obj
+
+controller.i: controller.cpp.i
+.PHONY : controller.i
+
+# target to preprocess a source file
+controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/controller.cpp.i
+.PHONY : controller.cpp.i
+
+controller.s: controller.cpp.s
+.PHONY : controller.s
+
+# target to generate assembly for a file
+controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/controller.cpp.s
+.PHONY : controller.cpp.s
+
 grid.obj: grid.cpp.obj
 .PHONY : grid.obj
 
@@ -201,6 +225,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+mediaplayer.obj: mediaplayer.cpp.obj
+.PHONY : mediaplayer.obj
+
+# target to build an object file
+mediaplayer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/mediaplayer.cpp.obj
+.PHONY : mediaplayer.cpp.obj
+
+mediaplayer.i: mediaplayer.cpp.i
+.PHONY : mediaplayer.i
+
+# target to preprocess a source file
+mediaplayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/mediaplayer.cpp.i
+.PHONY : mediaplayer.cpp.i
+
+mediaplayer.s: mediaplayer.cpp.s
+.PHONY : mediaplayer.s
+
+# target to generate assembly for a file
+mediaplayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/mediaplayer.cpp.s
+.PHONY : mediaplayer.cpp.s
 
 myCanvas.obj: myCanvas.cpp.obj
 .PHONY : myCanvas.obj
@@ -250,6 +298,30 @@ saolei_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/saolei_autogen/mocs_compilation.cpp.s
 .PHONY : saolei_autogen/mocs_compilation.cpp.s
 
+scoreboard.obj: scoreboard.cpp.obj
+.PHONY : scoreboard.obj
+
+# target to build an object file
+scoreboard.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/scoreboard.cpp.obj
+.PHONY : scoreboard.cpp.obj
+
+scoreboard.i: scoreboard.cpp.i
+.PHONY : scoreboard.i
+
+# target to preprocess a source file
+scoreboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/scoreboard.cpp.i
+.PHONY : scoreboard.cpp.i
+
+scoreboard.s: scoreboard.cpp.s
+.PHONY : scoreboard.s
+
+# target to generate assembly for a file
+scoreboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\saolei.dir\build.make CMakeFiles/saolei.dir/scoreboard.cpp.s
+.PHONY : scoreboard.cpp.s
+
 table.obj: table.cpp.obj
 .PHONY : table.obj
 
@@ -285,18 +357,27 @@ help:
 	@echo ... saolei_autogen
 	@echo ... saolei_autogen_timestamp_deps
 	@echo ... saolei
+	@echo ... controller.obj
+	@echo ... controller.i
+	@echo ... controller.s
 	@echo ... grid.obj
 	@echo ... grid.i
 	@echo ... grid.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... mediaplayer.obj
+	@echo ... mediaplayer.i
+	@echo ... mediaplayer.s
 	@echo ... myCanvas.obj
 	@echo ... myCanvas.i
 	@echo ... myCanvas.s
 	@echo ... saolei_autogen/mocs_compilation.obj
 	@echo ... saolei_autogen/mocs_compilation.i
 	@echo ... saolei_autogen/mocs_compilation.s
+	@echo ... scoreboard.obj
+	@echo ... scoreboard.i
+	@echo ... scoreboard.s
 	@echo ... table.obj
 	@echo ... table.i
 	@echo ... table.s

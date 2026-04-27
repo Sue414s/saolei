@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Core Widgets Multimedia)
 
 add_executable(saolei 
     main.cpp 
@@ -14,6 +15,11 @@ add_executable(saolei
     table.h
     grid.cpp
     grid.h
+    scoreboard.cpp
+    scoreboard.h
+    controller.cpp
+    controller.h
+    mediaplayer.cpp
+    mediaplayer.h
 )
-
-target_link_libraries(saolei Qt6::Core Qt6::Widgets)
+target_link_libraries(saolei Qt6::Core Qt6::Widgets Qt6::Multimedia)

@@ -1,9 +1,7 @@
 C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/EWIEGA46WW/moc_myCanvas.cpp: C:/Users/lenovo/Desktop/cpp/saolei/myCanvas.h \
   C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/moc_predefs.h \
-  C:/Users/lenovo/Desktop/cpp/saolei/grid.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/QEvent \
   D:/Qt/6.10.1/mingw_64/include/QtCore/QTimer \
-  D:/Qt/6.10.1/mingw_64/include/QtCore/QVector \
   D:/Qt/6.10.1/mingw_64/include/QtCore/q17memory.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/q20functional.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/q20iterator.h \
@@ -131,10 +129,10 @@ C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/EWIEGA46WW/moc_myCanvas.
   D:/Qt/6.10.1/mingw_64/include/QtCore/qtversionchecks.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/qtypeinfo.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/qtypes.h \
+  D:/Qt/6.10.1/mingw_64/include/QtCore/qurl.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/qutf8stringview.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/qvariant.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/qvarlengtharray.h \
-  D:/Qt/6.10.1/mingw_64/include/QtCore/qvector.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Qt/6.10.1/mingw_64/include/QtCore/qyieldcpu.h \
@@ -164,6 +162,17 @@ C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/EWIEGA46WW/moc_myCanvas.
   D:/Qt/6.10.1/mingw_64/include/QtGui/qtransform.h \
   D:/Qt/6.10.1/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.10.1/mingw_64/include/QtGui/qwindowdefs_win.h \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QAudioOutput \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QMediaPlayer \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QSoundEffect \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudio.h \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudiooutput.h \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qmediaplayer.h \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qsoundeffect.h \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtaudio.h \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
   D:/Qt/6.10.1/mingw_64/include/QtWidgets/QWidget \
   D:/Qt/6.10.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   D:/Qt/6.10.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
@@ -192,7 +201,6 @@ C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/EWIEGA46WW/moc_myCanvas.
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cpp_type_traits.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_forced.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/cxxabi_init_exception.h \
-  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/erase_if.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception.h \
@@ -233,7 +241,6 @@ C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/EWIEGA46WW/moc_myCanvas.
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algobase.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_construct.h \
-  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_function.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_iterator.h \
@@ -245,7 +252,6 @@ C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/EWIEGA46WW/moc_myCanvas.
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_multiset.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_pair.h \
-  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_raw_storage_iter.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_relops.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_set.h \
@@ -283,7 +289,6 @@ C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/EWIEGA46WW/moc_myCanvas.
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwchar \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/assertions.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/debug/debug.h \
-  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/alloc_traits.h \
@@ -308,7 +313,6 @@ C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/EWIEGA46WW/moc_myCanvas.
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/pstl_config.h \
-  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/set \
   D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/stdexcept \

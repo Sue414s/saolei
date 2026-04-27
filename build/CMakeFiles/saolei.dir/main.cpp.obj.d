@@ -432,6 +432,18 @@ CMakeFiles/saolei.dir/main.cpp.obj: \
  C:\Users\lenovo\Desktop\cpp\saolei\myCanvas.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QTimer \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qtimer.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QSoundEffect \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qsoundeffect.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudio.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QMediaPlayer \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qmediaplayer.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtaudio.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QAudioOutput \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudiooutput.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\controller.h \
  C:\Users\lenovo\Desktop\cpp\saolei\grid.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QVector \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qvector.h \
@@ -439,4 +451,6 @@ CMakeFiles/saolei.dir/main.cpp.obj: \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
- D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\scoreboard.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\mediaplayer.h

@@ -35,7 +35,7 @@ Table::Table(QWidget *parent) : QWidget(parent),t(false),x(0),y(0),t_val(0){
         x = xInput->text().toInt(&xOk);
         y = yInput->text().toInt(&yOk);
         t_val = tInput->text().toInt(&tOk);
-        if (!xOk || !yOk || !tOk || x <= 0 || y <= 0 || t_val < 0 || t_val >= x * y) {
+        if (!xOk || !yOk || !tOk || x <= 0 || y <= 0 || t_val < 0 || t_val >= x * y-8) {
             qDebug() << "Invalid input. Please enter valid integers for all fields.";
             return;
         }

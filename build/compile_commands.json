@@ -1,32 +1,50 @@
 [
 {
   "directory": "C:/Users/lenovo/Desktop/cpp/saolei/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\saolei_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\build\\saolei_autogen\\mocs_compilation.cpp",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\saolei_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\build\\saolei_autogen\\mocs_compilation.cpp",
   "file": "C:/Users/lenovo/Desktop/cpp/saolei/build/saolei_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/saolei.dir/saolei_autogen/mocs_compilation.cpp.obj"
 },
 {
   "directory": "C:/Users/lenovo/Desktop/cpp/saolei/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\main.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\main.cpp",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\main.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\main.cpp",
   "file": "C:/Users/lenovo/Desktop/cpp/saolei/main.cpp",
   "output": "CMakeFiles/saolei.dir/main.cpp.obj"
 },
 {
   "directory": "C:/Users/lenovo/Desktop/cpp/saolei/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\myCanvas.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\myCanvas.cpp",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\myCanvas.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\myCanvas.cpp",
   "file": "C:/Users/lenovo/Desktop/cpp/saolei/myCanvas.cpp",
   "output": "CMakeFiles/saolei.dir/myCanvas.cpp.obj"
 },
 {
   "directory": "C:/Users/lenovo/Desktop/cpp/saolei/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\table.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\table.cpp",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\table.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\table.cpp",
   "file": "C:/Users/lenovo/Desktop/cpp/saolei/table.cpp",
   "output": "CMakeFiles/saolei.dir/table.cpp.obj"
 },
 {
   "directory": "C:/Users/lenovo/Desktop/cpp/saolei/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\grid.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\grid.cpp",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\grid.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\grid.cpp",
   "file": "C:/Users/lenovo/Desktop/cpp/saolei/grid.cpp",
   "output": "CMakeFiles/saolei.dir/grid.cpp.obj"
+},
+{
+  "directory": "C:/Users/lenovo/Desktop/cpp/saolei/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\scoreboard.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\scoreboard.cpp",
+  "file": "C:/Users/lenovo/Desktop/cpp/saolei/scoreboard.cpp",
+  "output": "CMakeFiles/saolei.dir/scoreboard.cpp.obj"
+},
+{
+  "directory": "C:/Users/lenovo/Desktop/cpp/saolei/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\controller.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\controller.cpp",
+  "file": "C:/Users/lenovo/Desktop/cpp/saolei/controller.cpp",
+  "output": "CMakeFiles/saolei.dir/controller.cpp.obj"
+},
+{
+  "directory": "C:/Users/lenovo/Desktop/cpp/saolei/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/saolei.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\saolei.dir\\mediaplayer.cpp.obj -c C:\\Users\\lenovo\\Desktop\\cpp\\saolei\\mediaplayer.cpp",
+  "file": "C:/Users/lenovo/Desktop/cpp/saolei/mediaplayer.cpp",
+  "output": "CMakeFiles/saolei.dir/mediaplayer.cpp.obj"
 }
 ]

@@ -392,16 +392,33 @@ CMakeFiles/saolei.dir/saolei_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qdeadlinetimer.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QEvent \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qcoreevent.h \
- C:/Users/lenovo/Desktop/cpp/saolei/grid.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/QVector \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qvector.h \
- D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue \
- D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
- D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
- D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
- D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QSoundEffect \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qsoundeffect.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudio.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qurl.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QMediaPlayer \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qmediaplayer.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtaudio.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QAudioOutput \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudiooutput.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qtmochelpers.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qtmocconstants.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/q20algorithm.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\build\saolei_autogen\EWIEGA46WW/moc_scoreboard.cpp \
+ C:/Users/lenovo/Desktop/cpp/saolei/scoreboard.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/QLabel \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qlabel.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qpicture.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qiodevice.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qtextdocument.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qtextcursor.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qtextformat.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qtextoption.h \
  C:\Users\lenovo\Desktop\cpp\saolei\build\saolei_autogen\EWIEGA46WW/moc_table.cpp \
  C:/Users/lenovo/Desktop/cpp/saolei/table.h

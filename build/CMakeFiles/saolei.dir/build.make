@@ -149,13 +149,61 @@ CMakeFiles/saolei.dir/grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/saolei.dir/grid.cpp.s"
 	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lenovo\Desktop\cpp\saolei\grid.cpp -o CMakeFiles\saolei.dir\grid.cpp.s
 
+CMakeFiles/saolei.dir/scoreboard.cpp.obj: CMakeFiles/saolei.dir/flags.make
+CMakeFiles/saolei.dir/scoreboard.cpp.obj: CMakeFiles/saolei.dir/includes_CXX.rsp
+CMakeFiles/saolei.dir/scoreboard.cpp.obj: C:/Users/lenovo/Desktop/cpp/saolei/scoreboard.cpp
+CMakeFiles/saolei.dir/scoreboard.cpp.obj: CMakeFiles/saolei.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lenovo\Desktop\cpp\saolei\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/saolei.dir/scoreboard.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/saolei.dir/scoreboard.cpp.obj -MF CMakeFiles\saolei.dir\scoreboard.cpp.obj.d -o CMakeFiles\saolei.dir\scoreboard.cpp.obj -c C:\Users\lenovo\Desktop\cpp\saolei\scoreboard.cpp
+
+CMakeFiles/saolei.dir/scoreboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/saolei.dir/scoreboard.cpp.i"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lenovo\Desktop\cpp\saolei\scoreboard.cpp > CMakeFiles\saolei.dir\scoreboard.cpp.i
+
+CMakeFiles/saolei.dir/scoreboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/saolei.dir/scoreboard.cpp.s"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lenovo\Desktop\cpp\saolei\scoreboard.cpp -o CMakeFiles\saolei.dir\scoreboard.cpp.s
+
+CMakeFiles/saolei.dir/controller.cpp.obj: CMakeFiles/saolei.dir/flags.make
+CMakeFiles/saolei.dir/controller.cpp.obj: CMakeFiles/saolei.dir/includes_CXX.rsp
+CMakeFiles/saolei.dir/controller.cpp.obj: C:/Users/lenovo/Desktop/cpp/saolei/controller.cpp
+CMakeFiles/saolei.dir/controller.cpp.obj: CMakeFiles/saolei.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lenovo\Desktop\cpp\saolei\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/saolei.dir/controller.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/saolei.dir/controller.cpp.obj -MF CMakeFiles\saolei.dir\controller.cpp.obj.d -o CMakeFiles\saolei.dir\controller.cpp.obj -c C:\Users\lenovo\Desktop\cpp\saolei\controller.cpp
+
+CMakeFiles/saolei.dir/controller.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/saolei.dir/controller.cpp.i"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lenovo\Desktop\cpp\saolei\controller.cpp > CMakeFiles\saolei.dir\controller.cpp.i
+
+CMakeFiles/saolei.dir/controller.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/saolei.dir/controller.cpp.s"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lenovo\Desktop\cpp\saolei\controller.cpp -o CMakeFiles\saolei.dir\controller.cpp.s
+
+CMakeFiles/saolei.dir/mediaplayer.cpp.obj: CMakeFiles/saolei.dir/flags.make
+CMakeFiles/saolei.dir/mediaplayer.cpp.obj: CMakeFiles/saolei.dir/includes_CXX.rsp
+CMakeFiles/saolei.dir/mediaplayer.cpp.obj: C:/Users/lenovo/Desktop/cpp/saolei/mediaplayer.cpp
+CMakeFiles/saolei.dir/mediaplayer.cpp.obj: CMakeFiles/saolei.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\lenovo\Desktop\cpp\saolei\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/saolei.dir/mediaplayer.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/saolei.dir/mediaplayer.cpp.obj -MF CMakeFiles\saolei.dir\mediaplayer.cpp.obj.d -o CMakeFiles\saolei.dir\mediaplayer.cpp.obj -c C:\Users\lenovo\Desktop\cpp\saolei\mediaplayer.cpp
+
+CMakeFiles/saolei.dir/mediaplayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/saolei.dir/mediaplayer.cpp.i"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lenovo\Desktop\cpp\saolei\mediaplayer.cpp > CMakeFiles\saolei.dir\mediaplayer.cpp.i
+
+CMakeFiles/saolei.dir/mediaplayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/saolei.dir/mediaplayer.cpp.s"
+	D:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lenovo\Desktop\cpp\saolei\mediaplayer.cpp -o CMakeFiles\saolei.dir\mediaplayer.cpp.s
+
 # Object files for target saolei
 saolei_OBJECTS = \
 "CMakeFiles/saolei.dir/saolei_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/saolei.dir/main.cpp.obj" \
 "CMakeFiles/saolei.dir/myCanvas.cpp.obj" \
 "CMakeFiles/saolei.dir/table.cpp.obj" \
-"CMakeFiles/saolei.dir/grid.cpp.obj"
+"CMakeFiles/saolei.dir/grid.cpp.obj" \
+"CMakeFiles/saolei.dir/scoreboard.cpp.obj" \
+"CMakeFiles/saolei.dir/controller.cpp.obj" \
+"CMakeFiles/saolei.dir/mediaplayer.cpp.obj"
 
 # External object files for target saolei
 saolei_EXTERNAL_OBJECTS =
@@ -165,14 +213,19 @@ saolei.exe: CMakeFiles/saolei.dir/main.cpp.obj
 saolei.exe: CMakeFiles/saolei.dir/myCanvas.cpp.obj
 saolei.exe: CMakeFiles/saolei.dir/table.cpp.obj
 saolei.exe: CMakeFiles/saolei.dir/grid.cpp.obj
+saolei.exe: CMakeFiles/saolei.dir/scoreboard.cpp.obj
+saolei.exe: CMakeFiles/saolei.dir/controller.cpp.obj
+saolei.exe: CMakeFiles/saolei.dir/mediaplayer.cpp.obj
 saolei.exe: CMakeFiles/saolei.dir/build.make
 saolei.exe: D:/Qt/6.10.1/mingw_64/lib/libQt6Widgets.a
+saolei.exe: D:/Qt/6.10.1/mingw_64/lib/libQt6Multimedia.a
 saolei.exe: D:/Qt/6.10.1/mingw_64/lib/libQt6Gui.a
+saolei.exe: D:/Qt/6.10.1/mingw_64/lib/libQt6Network.a
 saolei.exe: D:/Qt/6.10.1/mingw_64/lib/libQt6Core.a
 saolei.exe: CMakeFiles/saolei.dir/linkLibs.rsp
 saolei.exe: CMakeFiles/saolei.dir/objects1.rsp
 saolei.exe: CMakeFiles/saolei.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\lenovo\Desktop\cpp\saolei\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable saolei.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\lenovo\Desktop\cpp\saolei\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable saolei.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\saolei.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

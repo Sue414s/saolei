@@ -391,6 +391,19 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qdeadlinetimer.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QEvent \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qcoreevent.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QSoundEffect \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qsoundeffect.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimediaglobal.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimedia-config.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtmultimediaexports.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudio.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qurl.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QMediaPlayer \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qmediaplayer.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtaudio.h \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QAudioOutput \
+ D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudiooutput.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\controller.h \
  C:\Users\lenovo\Desktop\cpp\saolei\grid.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QVector \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qvector.h \
@@ -399,7 +412,15 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/deque.tcc \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_queue.h \
- C:\Users\lenovo\Desktop\cpp\saolei\table.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\scoreboard.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/QLabel \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qlabel.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qframe.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qpicture.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qiodevice.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qtextdocument.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\mediaplayer.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/QPainter \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qpainter.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qtextoption.h \
@@ -422,13 +443,9 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/QPushbutton \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/qpushbutton.h \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/qabstractbutton.h \
- D:/Qt/6.10.1/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/QLineEdit \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/qlineedit.h \
- D:/Qt/6.10.1/mingw_64/include/QtWidgets/qframe.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qtextcursor.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qtextdocument.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qurl.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qtextformat.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/QScreen \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qscreen.h \
@@ -455,7 +472,6 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qguiapplication.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/QMouseEvent \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qevent.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qiodevice.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qeventpoint.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qvector2d.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qvectornd.h \
@@ -465,4 +481,43 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/QMessageBox \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/qmessagebox.h \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialog.h \
- D:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/QDir \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qdir.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qdirlisting.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qfiledevice.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qdatetime.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qcalendar.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qfile.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/filesystem \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_fwd.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_path.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cwctype \
+ D:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/codecvt \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
+ D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qfileinfo.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qtimezone.h
