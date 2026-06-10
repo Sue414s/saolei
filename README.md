@@ -34,3 +34,9 @@ cmake -B build -G "MinGW Makefiles" -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=
 # Windows (MinGW) 示例: -DCMAKE_PREFIX_PATH="D:/Qt/6.5.0/mingw64/lib/cmake"
 cmake --build build
 ```
+### 3. 运行
+```bash
+cd build
+#如果运行提示缺乏动态库请执行windeployqt saolei.exe
+saolei.exe
+```
