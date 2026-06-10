@@ -1,5 +1,0 @@
-C:/Users/lenovo/Desktop/cpp/saolei/build/CMakeFiles/saolei.dir
-C:/Users/lenovo/Desktop/cpp/saolei/build/CMakeFiles/edit_cache.dir
-C:/Users/lenovo/Desktop/cpp/saolei/build/CMakeFiles/rebuild_cache.dir
-C:/Users/lenovo/Desktop/cpp/saolei/build/CMakeFiles/saolei_autogen_timestamp_deps.dir
-C:/Users/lenovo/Desktop/cpp/saolei/build/CMakeFiles/saolei_autogen.dir
