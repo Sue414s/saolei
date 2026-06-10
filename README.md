@@ -25,3 +25,9 @@
 ```bash
 git clone https://github.com/Sue414s/saolei.git
 cd saolei
+
+```
+### 2. 编译
+mkdir build
+cmake -B build -G "MinGW Makefiles" -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_PREFIX_PATH="你的Qt安装路径/lib/cmake"
+cmake --build build
