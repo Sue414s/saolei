@@ -6,7 +6,7 @@
 
 - 经典的扫雷玩法（左键翻开格子，右键标记地雷）
 - 剩余雷数,生命,积分显示
-- 完全使用 Qt Widgets 实现，无额外依赖
+- 完全使用 Qt 实现，无额外依赖
 
 ## 📦 依赖
 
@@ -30,7 +30,7 @@ cd saolei
 ### 2. 编译
 
 ```bash
-mkdir build
 cmake -B build -G "MinGW Makefiles" -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_PREFIX_PATH="你的Qt安装路径/lib/cmake"
+# Windows (MinGW) 示例: -DCMAKE_PREFIX_PATH="D:/Qt/6.5.0/mingw64/lib/cmake"
 cmake --build build
 ```
