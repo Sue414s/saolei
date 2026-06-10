@@ -38,9 +38,20 @@ double Controller::getSIZE() const {
     return SIZE;
 }
 
-Controller::Controller(MyCanvas *canvas) : canvas(canvas), mediaPlayer(new MediaPlayer), t(false),g(nullptr),scoreboard(nullptr){
+Controller::Controller(MyCanvas *canvas) : canvas(canvas), mediaPlayer(new MediaPlayer), t(false),g(nullptr),scoreboard(nullptr),timer(nullptr){
     SIZE = 20;
     canvas->setController(this);
+    timer = new QTimer(canvas);
+    QObject::connect(timer, &QTimer::timeout, [this]() { 
+        for(int i=0;i<g->getX();i++){
+            for(int j=0;j<g->getY();j++){
+                if(g->isVisited(i,j)){
+                    g->setVeil(i,j,g->getVeil(i,j)-0.05);
+                }
+            }
+        }
+        this->canvas->update(); 
+    });
 }
 
 
@@ -59,7 +70,9 @@ void Controller::newstage(int x, int y, int t_val){
 void Controller::start(int x, int y, int t_val){
     // std::cout << "start" << std::endl;
     t=true;
-
+    SIZE = 20;
+    if(scoreboard) delete scoreboard;
+    
     scoreboard = new Scoreboard(canvas);
     scoreboard->move(x*SIZE+10, 10);
     scoreboard->setScore(0);
@@ -70,9 +83,7 @@ void Controller::start(int x, int y, int t_val){
     mediaPlayer->bgmplay();
     canvas->setWindowTitle("扫雷");
     this->newstage(x,y,t_val);
-    
-    timer = new QTimer(canvas);
-    QObject::connect(timer, &QTimer::timeout, [this]() { this->canvas->update(); });
+
     timer->start(16); 
     
 }
@@ -81,17 +92,27 @@ void Controller::handleClick(QMouseEvent *event){
     int x=event->x()/SIZE,y=event->y()/SIZE;
     if(event->button() == Qt::LeftButton){
         if(g->gethole(x,y)){
-            if(scoreboard->getLevel()>=10){
-                timer->stop();
-                QMessageBox::information(canvas, "You are a terrible person.", "Stop.");
-                canvas->close();
+            if(scoreboard->getLevel()>=5){
+                QMessageBox a(canvas);
+                a.setText("Start a new stage?");
+                QPushButton *okButton = a.addButton(QMessageBox::Ok);
+                QPushButton *cancelButton = a.addButton(QMessageBox::Cancel);
+                a.exec();
+                if(a.clickedButton()==a.button(QMessageBox::Ok)){
+                    t=false;
+                    // timer->stop();
+                    canvas->menu();
+                }else{
+                    timer->stop();
+                    canvas->close();
+                }
                 return;
             }
             newstage(g->getX()+2,g->getY()+2,(int)g->getT()*rate);
             return;
         }
-        mediaPlayer->play(0); // 播放点击音效
         int tmp=g->spread(x,y);
+        mediaPlayer->play(0); // 播放点击音效
         if(tmp>=10) mediaPlayer->play(1); // 播放扩散音效
         scoreboard->setScore(scoreboard->getScore()+tmp);
     }
@@ -114,5 +135,35 @@ void Controller::handleClick(QMouseEvent *event){
         scoreboard->setLife(scoreboard->getLife()+1); // 胜利奖励生命
         mediaPlayer->play(4); // 播放续命音效
         g->setVisitAll(true);
+    }
+}
+
+void Controller::handleMove(QMouseEvent *event){
+    // 鼠标移动事件处理逻辑（如果需要）
+    int x=event->x()/SIZE,y=event->y()/SIZE;
+    g->setHover(x,y);
+}
+
+void Controller::handleKey(QKeyEvent *event){
+    // 键盘事件处理逻辑（如果需要）
+    if(event->key() == Qt::Key_Escape){
+        QMessageBox quiz(canvas);
+        quiz.addButton("Quit", QMessageBox::RejectRole);
+        quiz.addButton("Restart", QMessageBox::AcceptRole);
+        quiz.addButton("Continue", QMessageBox::DestructiveRole);
+        quiz.setText("Do you want to quit or restart the game?");
+        quiz.exec();
+        if(quiz.clickedButton()->text() == "Quit"){
+            timer->stop();
+            canvas->close();
+        }
+        if(quiz.clickedButton()->text() == "Restart"){
+            t=false;
+            // timer->stop();
+            canvas->menu();
+        }
+        if(quiz.clickedButton()->text() == "Continue"){
+            // Do nothing, just continue the game
+        }
     }
 }

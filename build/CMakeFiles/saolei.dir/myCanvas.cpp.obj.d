@@ -403,10 +403,39 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtaudio.h \
  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QAudioOutput \
  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudiooutput.h \
- C:\Users\lenovo\Desktop\cpp\saolei\controller.h \
- C:\Users\lenovo\Desktop\cpp\saolei\grid.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QVector \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qvector.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/QKeyEvent \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qevent.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qcoreevent.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qiodevice.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qeventpoint.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qvector2d.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qvectornd.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qinputdevice.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qscreen.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/QList \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qlist.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/QRect \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qrect.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/QSize \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qsize.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/QSizeF \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/QTransform \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qtransform.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qscreen_platform.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qguiapplication.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qcoreapplication.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qinputmethod.h \
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qlocale.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/qguiapplication_platform.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\controller.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\grid.h \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \
@@ -418,7 +447,6 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/qframe.h \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/qwidget.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qiodevice.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qtextdocument.h \
  C:\Users\lenovo\Desktop\cpp\saolei\mediaplayer.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/QPainter \
@@ -428,7 +456,6 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QDebug \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qdebug.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QObject \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QThread \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qthread.h \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/future \
@@ -449,35 +476,9 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qtextformat.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/QScreen \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qscreen.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/QList \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qlist.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/QObject \
- D:/Qt/6.10.1/mingw_64/include/QtCore/QRect \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/QSize \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/QSizeF \
- D:/Qt/6.10.1/mingw_64/include/QtGui/QTransform \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qnativeinterface.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qscreen_platform.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qguiapplication.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qcoreapplication.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qcoreapplication_platform.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qinputmethod.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qlocale.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qguiapplication_platform.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/QGuiApplication \
  D:/Qt/6.10.1/mingw_64/include/QtGui/qguiapplication.h \
  D:/Qt/6.10.1/mingw_64/include/QtGui/QMouseEvent \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qevent.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qeventpoint.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qvector2d.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qvectornd.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qpointingdevice.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qinputdevice.h \
- D:/Qt/6.10.1/mingw_64/include/QtGui/qscreen.h \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/QMessageBox \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/qmessagebox.h \
  D:/Qt/6.10.1/mingw_64/include/QtWidgets/qdialog.h \
@@ -520,4 +521,10 @@ CMakeFiles/saolei.dir/myCanvas.cpp.obj: \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_dir.h \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fs_ops.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qfileinfo.h \
- D:/Qt/6.10.1/mingw_64/include/QtCore/qtimezone.h
+ D:/Qt/6.10.1/mingw_64/include/QtCore/qtimezone.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/QLayout \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qlayout.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qlayoutitem.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qboxlayout.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qlayout.h \
+ D:/Qt/6.10.1/mingw_64/include/QtWidgets/qgridlayout.h

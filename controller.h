@@ -15,6 +15,8 @@ class Controller{
         void newstage(int x,int y,int t_val);
         void start(int x,int y,int t_val);
         void handleClick(QMouseEvent *event);
+        void handleMove(QMouseEvent *event);
+        void handleKey(QKeyEvent *event);
         grid* getGrid() const;
         Scoreboard* getScoreboard() const;
         bool getT() const;
@@ -26,5 +28,5 @@ class Controller{
         MediaPlayer *mediaPlayer;
         QTimer *timer; // 定时器
         bool t;
-        double SIZE = 20;
+        double SIZE;
 };

@@ -443,10 +443,11 @@ CMakeFiles/saolei.dir/main.cpp.obj: \
  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qtaudio.h \
  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/QAudioOutput \
  D:/Qt/6.10.1/mingw_64/include/QtMultimedia/qaudiooutput.h \
- C:\Users\lenovo\Desktop\cpp\saolei\controller.h \
- C:\Users\lenovo\Desktop\cpp\saolei\grid.h \
  D:/Qt/6.10.1/mingw_64/include/QtCore/QVector \
  D:/Qt/6.10.1/mingw_64/include/QtCore/qvector.h \
+ D:/Qt/6.10.1/mingw_64/include/QtGui/QKeyEvent \
+ C:\Users\lenovo\Desktop\cpp\saolei\controller.h \
+ C:\Users\lenovo\Desktop\cpp\saolei\grid.h \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/queue \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/deque \
  D:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_deque.h \

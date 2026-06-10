@@ -34,10 +34,10 @@ void MediaPlayer::play(int type){
         case 0: clickSound->play(); break;
         case 1: spreadSound->play(); break;
         case 2: bombSound->play(); break;
-        case 3: newSound->play(); break;
+        // case 3: newSound->play(); break;
         case 4: extendSound->play(); break;
     }
 }
 void MediaPlayer::bgmplay(){
-    mediaPlayer->play();
+    // mediaPlayer->play();
 }

@@ -4,101 +4,28 @@
 #include <time.h>
 #include <QThread>
 
-grid::grid(int _x,int _y,int _t) : x(_x),y(_y),t_val(_t),t(false),stat(false),visitall(false),markedCount(0){
+grid::grid(int _x,int _y,int _t) : x(_x),y(_y),t_val(_t),t(false),stat(false),visitall(false),markedCount(0),hoverX(-1),hoverY(-1){
     gridData.resize(x);
     visited.resize(x);
     mark.resize(x);
     hole.resize(x);
+    veil.resize(x);
     for(int i=0;i<x;i++){
         gridData[i].resize(y);
         visited[i].resize(y);
         mark[i].resize(y);
         hole[i].resize(y);
+        veil[i].resize(y);
         for(int j=0;j<y;j++){
             gridData[i][j]=0;
             visited[i][j]=false;
             mark[i][j]=false;
+            veil[i][j]=2.0;
         }
     }
 }
 
 grid::~grid(){}
-
-bool grid::isOK(int _x,int _y) const{
-    return gridData[_x][_y]!=-1;
-}
-
-bool grid::isValid(int _x,int _y) const{
-    return _x>=0&&_x<x&&_y>=0&&_y<y;
-}
-
-bool grid::isVisited(int _x,int _y) const{
-    return visited[_x][_y];
-}
-
-bool grid::isMarked(int _x,int _y) const{
-    return mark[_x][_y];
-}
-
-bool grid::getWin() const{
-    if(visitall) return true;
-    for(int i=0;i<x;i++){
-        for(int j=0;j<y;j++){
-            if(gridData[i][j]!=-1&&!visited[i][j]) return false;
-        }
-    }
-    return true;
-}
-
-bool grid::getVisitAll() const{
-    return visitall;
-}
-
-bool grid::getStat() const{
-    return stat;
-}
-
-bool grid::gethole(int _x,int _y) const{
-    return hole[_x][_y];
-}
-
-int grid::getX() const{
-    return x;
-}
-
-int grid::getY() const{
-    return y;
-}
-
-int grid::getT() const{
-    return t_val;
-}
-
-int grid::getData(int _x,int _y) const{
-    return gridData[_x][_y];
-}
-
-void grid::sethole(int _x,int _y,bool _hole){
-    hole[_x][_y]=_hole;
-}
-
-void grid::setMark(int _x,int _y){
-    if(visited[_x][_y]) return; // 已访问的格子不能标记
-    if(mark[_x][_y]) mark[_x][_y]=false,markedCount--;
-    else mark[_x][_y]=true,markedCount++;
-}
-
-void grid::setStat(bool _stat){
-    stat=_stat;
-}
-
-void grid::setVisitAll(bool _visitall){
-    visitall=_visitall;
-}
-
-int grid::getMarkedCount() const{
-    return markedCount;
-}
 
 int grid::spread(int _x,int _y){
     if(!t){
@@ -112,9 +39,12 @@ int grid::spread(int _x,int _y){
     q.push({_x,_y});
     if(!visited[_x][_y]) cnt++;
     visited[_x][_y]=true;
+
+    double eps=0.1,las=0.5;
     while(!q.empty()){
         auto [cx,cy]=q.front();
         q.pop();
+        if(veil[cx][cy]>las) las=veil[cx][cy];
         if(gridData[cx][cy]>0){
             int cn=0;
             for(int k=-1;k<=1;k++){
@@ -136,6 +66,7 @@ int grid::spread(int _x,int _y){
                 if(isValid(nx,ny)&&!visited[nx][ny]&&!mark[nx][ny]){
                     cnt++;
                     visited[nx][ny]=true;
+                    veil[nx][ny]=las+eps;
                     q.push({nx,ny});
                 }
             }
