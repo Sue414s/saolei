@@ -1,0 +1,14 @@
+
+# Ignore build directory
+build/
+
+# Ignore VS Code workspace/settings
+.vscode/
+
+# Optional: compiled object files, binaries
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.out
